@@ -6,6 +6,7 @@ function addHTMLToDOM(classDOMToAttachTo, arrayMe){
     document.getElementsByClassName(classDOMToAttachTo)[0].innerHTML=holdingHTMLString;
     debugger;
   });
+  copy(holdingHTMLString);
 }
 
 //helpful Website
