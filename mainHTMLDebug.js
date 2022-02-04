@@ -1,7 +1,9 @@
-function addHTMLToDOM(divDOMToAttachTo, arrayMe){
-  arrayMe.forEach((item ,index)=>{
+function addHTMLToDOM(arrayMe){
+  var holdingHTMLString = "";
+  arrayMe.forEach((item,index)=>{
     console.log(item);
-    document.getElementsByClassName(divDOMToAttachTo)[0].innerHTML+=item;
+    holdingHTMLString+=item;
+    document.getElementsByClassName('mainDIV')[0].innerHTML=holdingHTMLString;
     debugger;
   });
 }
