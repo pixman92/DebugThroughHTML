@@ -10,7 +10,7 @@ function addHTMLToDOM(divDOMToAttachTo, arrayMe){
 // https://url-decode.com/tool/create-array-js
 
 
-//var dummyHTML = ['<div class="main">',
+var dummyHTML = ['<div class="main">',
 '<div class="home">',
 '  <div class="redHouse">',
 '    red',
